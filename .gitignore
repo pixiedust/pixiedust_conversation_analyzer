@@ -99,3 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# credentials
+credentials.json
+
+# Notebook
+src/notebooks/metastore_db
+src/notebooks/.ipynb_checkpoints
+src/notebooks/derby.log
+
