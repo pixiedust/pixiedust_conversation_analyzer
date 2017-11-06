@@ -1,0 +1,57 @@
+{
+  "logs": [
+    {
+      "request": {
+        "input": {
+          "text": "Good morning"
+        }
+      },
+      "response": {
+        "intents": [
+          {
+            "intent": "hello",
+            "confidence": 1
+          }
+        ],
+        "entities": [],
+        "input": {
+          "text": "Good morning"
+        },
+        "output": {
+          "text": [
+            "Hi! What can I do for you?"
+          ],
+          "nodes_visited": [
+            "node_2_1501875253968"
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "conversation_id": "30001db8-d2f9-4530-9e81-80fc75725209",
+          "system": {
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "_node_output_map": {
+              "node_2_1501875253968": [
+                0
+              ]
+            },
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          }
+        }
+      },
+      "language": "en",
+      "workspace_id": "9978a49e-ea89-4493-b33d-82298d3db20d",
+      "request_timestamp": "2017-09-13T16:39:56.284Z",
+      "response_timestamp": "2017-09-13T16:39:58.828Z",
+      "log_id": "dcceece9-acfc-49aa-94c3-ddc2b9776cbe"
+    }
+  ],
+  "pagination": {}
+}
